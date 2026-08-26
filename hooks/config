@@ -4,5 +4,5 @@
 #   TEST_CMD="pytest tests/ -v"
 #   LINT_CMD="npm run lint"
 #   LINT_CMD="ruff check ."
-TEST_CMD=""
+TEST_CMD="npx vitest run"
 LINT_CMD=""

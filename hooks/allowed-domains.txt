@@ -2,4 +2,5 @@ github.com
 api.github.com
 objects.githubusercontent.com
 api.anthropic.com
+platform.claude.com
 registry.npmjs.org

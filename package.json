@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A reusable repo scaffold for AI-assisted development. Clone this for any new project to start with harness constraints and cost-conscious context management already in place, instead of rebuilding discipline from scratch each time.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernestviola/ai-template-test-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernestviola/ai-template-test-project/issues"
+  },
+  "homepage": "https://github.com/ernestviola/ai-template-test-project#readme",
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
+}

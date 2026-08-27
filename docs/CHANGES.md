@@ -3,3 +3,4 @@
 Format: `YYYY-MM-DD | description | Diff reviewed: yes/no | Tests passed: yes/no`
 
 <!-- Add one line per AI-assisted change after reviewing the diff. -->
+2026-08-27 | Implement parseCSV in src/parser.ts | Diff reviewed: yes | Tests passed: yes

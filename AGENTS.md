@@ -2,25 +2,31 @@
 
 ## 1. Project Overview
 
-[FILL IN] — one or two sentences: what this project is, primary language/framework and version.
+Toy CSV parser — testing the AI dev harness template. Node/TypeScript, Vitest.
 
 ## 2. Build and Test Commands
 
-[FILL IN] — exact commands with flags, not vague tool names.
+No build step — Vitest runs TypeScript directly, nothing to compile separately.
 
-Also fill in `hooks/config` so the pre-commit gate runs the right commands:
+Test suite: `npx vitest run`
+
+No lint command configured yet — add one (e.g. ESLint) when the project grows past a single file; leave `LINT_CMD` blank until then.
+
 ```sh
-TEST_CMD="[your test command]"
-LINT_CMD="[your lint command]"
+TEST_CMD="npx vitest run"
+LINT_CMD=""
 ```
 
 ## 3. Code Style Guidelines
 
-[FILL IN] — only rules that differ from language defaults or what the linter enforces.
+No style guide beyond language defaults yet — this is a single-file toy project. Revisit once there's more than one module or a linter is added.
 
 ## 4. Testing Instructions
 
-[FILL IN] — how to run the full suite, how to run a single test, what (if anything) should be mocked.
+- Full suite: `npx vitest run`
+- Single test file: `npx vitest run tests/parser.test.ts`
+- Single test by name: `npx vitest run -t "parses a simple CSV"`
+- No mocking needed — `parseCSV` is a pure function with no external dependencies.
 
 ## 5. Boundaries
 
@@ -43,9 +49,6 @@ Do not modify any of the following without explicit confirmation from the user:
 
 ## 7. Commit and PR Guidelines
 
-[FILL IN] — branch naming convention, commit message format if any.
-
-Defaults if not specified:
 - Branch naming: `type/short-description` (e.g. `feat/add-auth`, `fix/null-pointer`)
 - Commits: conventional commits format (`feat:`, `fix:`, `chore:`, `docs:`, etc.)
 - Every AI-assisted change gets logged in `docs/CHANGES.md` after review
